@@ -5,14 +5,14 @@ import plotly.express as px
 
 
 portfolio_holdings = {
-    'BHARTI.NS': {'quantity': 4430, 'name': 'Bharti Airtel', 'purchase_price': 2095, 'currency': 'INR', 'sector': 'TMT'},
+    'BHARTIARTL.NS': {'quantity': 4430, 'name': 'Bharti Airtel', 'purchase_price': 2095, 'currency': 'INR', 'sector': 'TMT'},
     'ASML.AS': {'quantity': 79, 'name': 'ASML Holding', 'purchase_price': 895, 'currency': 'EUR', 'sector': 'TMT'},
     'FTK.DE': {'quantity': 2710, 'name': 'Flatexdegiro', 'purchase_price': 33, 'currency': 'EUR', 'sector': 'FIG'},
     'SREN.SW': {'quantity': 273, 'name': 'Swiss Re', 'purchase_price': 148, 'currency': 'CHF', 'sector': 'FIG'},
     'WAL': {'quantity': 1250, 'name': 'Western Alliance Bancorp', 'purchase_price': 79, 'currency': 'USD', 'sector': 'FIG'},
     'AIR.PA': {'quantity': 374, 'name': 'Airbus', 'purchase_price': 209, 'currency': 'EUR', 'sector': 'Industrials'},
     '1211.HK': {'quantity': 7944, 'name': 'BYD Company', 'purchase_price': 98, 'currency': 'HKD', 'sector': 'Consumer Goods'},
-    'KAP.SW': {'quantity': 1976, 'name': 'Kape Technologies', 'purchase_price': 53, 'currency': 'CHF', 'sector': 'TMT'},
+    'KAP.IL': {'quantity': 1976, 'name': 'Kazatomprom', 'purchase_price': 53, 'currency': 'USD', 'sector': 'PUI'},
     'BSL.AX': {'quantity': 2077, 'name': 'BlueScope Steel', 'purchase_price': 22, 'currency': 'AUD', 'sector': 'PUI'},
     'DHER.DE': {'quantity': 2411, 'name': 'Delivery Hero', 'purchase_price': 20, 'currency': 'EUR', 'sector': 'Consumer Goods'},
     'MDLZ': {'quantity': 874, 'name': 'Mondelez International', 'purchase_price': 56, 'currency': 'USD', 'sector': 'Consumer Goods'},
