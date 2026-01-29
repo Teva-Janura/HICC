@@ -114,7 +114,7 @@ st.sidebar.title("Navigation")
 
 # Add logo at the top of sidebar (if logo file exists)
 try:
-    st.sidebar.image("/Users/tevajanura/Desktop/Screenshot 2026-01-29 at 17.22.15.png", use_container_width=True)
+    st.sidebar.image("Screenshot 2026-01-29 at 17.22.15.png", use_container_width=True)
     st.sidebar.markdown("---")
 except:
     # If logo doesn't exist, show placeholder text
