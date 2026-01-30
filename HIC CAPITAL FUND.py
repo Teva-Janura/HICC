@@ -6,7 +6,7 @@ import numpy as np
 import yfinance as yf
 
 # Load Excel
-df = pd.read_excel("/Users/tevajanura/Desktop/portfolio_holdings.xlsx")
+df = pd.read_excel("portfolio_holdings.xlsx")
 
 # Converting purchase_date to string to avoid pandas Timestamp issues
 # Updated portfolio_holdings dictionary (remove Purchase_price column from Excel)
@@ -172,7 +172,7 @@ st.sidebar.title("Navigation")
 
 # Add logo at the top of sidebar (if logo file exists)
 try:
-    st.sidebar.image("/Users/tevajanura/Desktop/Screenshot 2026-01-29 at 17.22.15.png", use_container_width=True)
+    st.sidebar.image("Screenshot 2026-01-29 at 17.22.15.png", use_container_width=True)
     st.sidebar.markdown("---")
 except:
     # If logo doesn't exist, show placeholder text
